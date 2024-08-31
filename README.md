@@ -32,3 +32,23 @@ for num1, num2 in numbers:
     for operation, result in results.items():
         print(f"{operation}: {result}")
     print()
+
+# Create two variables, num1 and num2, with the same integer value
+num1 = 25_000_000  # with underscores
+num2 = 25000000  # without underscores
+
+# Print num1 and num2 on separate lines
+print(num1)
+print(num2)
+
+
+
+# Create variables of type int, float, and complex
+int_var = 10
+float_var = 10.5
+complex_var = 1 + 2j
+
+# Check the types of the variables
+print("Type of int_var:", type(int_var))
+print("Type of float_var:", type(float_var))
+print("Type of complex_var:", type(complex_var))
