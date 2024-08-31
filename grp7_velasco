@@ -14,7 +14,7 @@ print("My first simple script")
 
 Create Two Variables
 # Create two variables
-number = 42           # Assigning a number to the variable 'number'
+number = 25           # Assigning a number to the variable 'number'
 name = "Milo"       # Assigning a name to the variable 'name'
 
 # Print both values
