@@ -1,0 +1,144 @@
+# A program for you calculate the length of a string.
+def string_length(input_string):
+    """
+    This function calculates the length of a given string.
+
+    Args:
+        input_string (str): The string for which the length needs to be calculated.
+
+    Returns:
+        int: The length of the input string.
+    """
+    return len(input_string)
+
+# Test the function
+input_string = "Hello, World!"
+print("The length of the string '{}' is {}".format(input_string, string_length(input_string)))
+
+#  A program count the number of characters in a string.
+def count_characters(input_string):
+    """
+    This function counts the number of characters in a given string.
+
+    Args:
+        input_string (str): The string for which the characters need to be counted.
+
+    Returns:
+        int: The number of characters in the input string.
+    """
+    return len(input_string)
+
+# Test the function
+input_string = "Hello, World!"
+print("The number of characters in the string '{}' is {}".format(input_string, count_characters(input_string)))
+
+#  A program to get a string from a given string where all occurrences of its first char have been changed to '$', except the first char itself.
+def change_first_char(input_string):
+    """
+    This function changes all occurrences of the first character in a string to '$', 
+    except the first character itself.
+
+    Args:
+        input_string (str): The input string.
+
+    Returns:
+        str: The modified string.
+    """
+    if len(input_string) == 0:
+        return input_string
+    first_char = input_string[0]
+    result = first_char
+    for char in input_string[1:]:
+        if char == first_char:
+            result += '$'
+        else:
+            result += char
+    return result
+
+# Test the function
+input_string = "Hello, World! How are you?"
+print("The modified string is: {}".format(change_first_char(input_string)))
+
+#  A program to get a single string from two given strings, separated by a space and swap the first two characters of each string.
+def swap_and_join(str1, str2):
+    """
+    This function swaps the first two characters of each input string and 
+    returns a single string with the modified strings separated by a space.
+
+    Args:
+        str1 (str): The first input string.
+        str2 (str): The second input string.
+
+    Returns:
+        str: The modified string with the swapped characters.
+    """
+    if len(str1) < 2:
+        swapped_str1 = str1
+    else:
+        swapped_str1 = str1[1] + str1[0] + str1[2:]
+    
+    if len(str2) < 2:
+        swapped_str2 = str2
+    else:
+        swapped_str2 = str2[1] + str2[0] + str2[2:]
+    
+    return swapped_str1 + ' ' + swapped_str2
+
+# Test the function
+str1 = "Hello"
+str2 = "World"
+print("The modified string is: {}".format(swap_and_join(str1, str2)))
+
+# Using + Concatenate Strings in Python using 4 variables concatenate them with spaces
+
+def concatenate_strings(str1, str2, str3, str4):
+    """
+    This function concatenates four input strings with spaces in between.
+
+    Args:
+        str1 (str): The first input string.
+        str2 (str): The second input string.
+        str3 (str): The third input string.
+        str4 (str): The fourth input string.
+
+    Returns:
+        str: The concatenated string.
+    """
+    return str1 + ' ' + str2 + ' ' + str3 + ' ' + str4
+
+# Test the function
+str1 = "Hello"
+str2 = "Beautiful"
+str3 = "World"
+str4 = "Today"
+print("The concatenated string is: {}".format(concatenate_strings(str1, str2, str3, str4)))
+
+# Using + Concatenate Strings in Python get two strings from user input and concatenate them
+
+def concatenate_strings():
+    """
+    This function gets two input strings from the user and concatenates them with a space in between.
+
+    Returns:
+        str: The concatenated string.
+    """
+    str1 = input("Enter the first string: ")
+    str2 = input("Enter the second string: ")
+    return str1 + ' ' + str2
+
+print("The concatenated string is: {}".format(concatenate_strings()))
+
+# Using + Concatenate in Python using your name and your age in a paragraph
+
+def create_paragraph():
+    """
+    This function creates a paragraph with my name and age.
+
+    Returns:
+        str: The paragraph.
+    """
+    name = "Charlene Velasco"
+    age = "Unknown (I'm  Charlene Velasco, 21 years old!)"
+    return "My name is " + name + " and I am " + age + "."
+
+print(create_paragraph())
