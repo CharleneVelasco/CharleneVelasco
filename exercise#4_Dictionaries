@@ -1,15 +1,15 @@
 # Create a dictionary with string, int, and boolean data types
-my_dict = {"name": "John", "age": 30, "is_admin": True}
+my_dict = {"name": "Micou", "age": 21, "is_admin": True}
 
 # Access elements of the dictionary
-print(my_dict["name"])  # Output: John
-print(my_dict["age"])  # Output: 30
+print(my_dict["name"])  # Output: Mico
+print(my_dict["age"])  # Output: 21
 print(my_dict["is_admin"])  # Output: True
 
 # Modify an element of the dictionary
-my_dict["name"] = "Jane"
-print(my_dict)  # Output: {"name": "Jane", "age": 30, "is_admin": True}
+my_dict["name"] = "charlene"
+print(my_dict)  # Output: {"name": "charlene", "age": 22, "is_admin": True}
 
 # Add an element to the dictionary
 my_dict["country"] = "USA"
-print(my_dict)  # Output: {"name": "Jane", "age": 30, "is_admin": True, "country": "USA"}
+print(my_dict)  # Output: {"name": "charlene", "age": 22, "is_admin": True, "country": "USA"}
