@@ -1,0 +1,10 @@
+# Create a tuple with string, int, and boolean data types
+my_tuple = ("apple", 1, True)
+
+# Access elements of the tuple
+print(my_tuple[0])  # Output: apple
+print(my_tuple[1])  # Output: 1
+print(my_tuple[2])  # Output: True
+
+# Note: Tuples are immutable, so we can't modify an element of the tuple
+# my_tuple[0] = "banana"  # This would raise a TypeError
