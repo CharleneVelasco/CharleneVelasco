@@ -1,0 +1,13 @@
+# Create a set with string, int, and boolean data types
+my_set = {"apple", 1, True}
+
+# Access elements of the set (note: sets are unordered)
+print(my_set)  # Output: {1, 'apple', True}
+
+# Add an element to the set
+my_set.add("orange")
+print(my_set)  # Output: {1, 'apple', True, 'orange'}
+
+# Remove an element from the set
+my_set.remove("apple")
+print(my_set)  # Output: {1, True, 'orange'}
