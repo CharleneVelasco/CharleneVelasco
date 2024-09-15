@@ -12,4 +12,4 @@ print(my_dict)  # Output: {"name": "charlene", "age": 22, "is_admin": True}
 
 # Add an element to the dictionary
 my_dict["country"] = "PHILIPPINES"
-print(my_dict)  # Output: {"name": "charlene", "age": 22, "is_admin": True, "country": "USA"}
+print(my_dict)  # Output: {"name": "charlene", "age": 22, "is_admin": True, "country": "PHILIPPINES"}
