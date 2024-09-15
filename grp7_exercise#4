@@ -1,0 +1,8 @@
+# Define a variable x with a value of 5
+x = 5
+
+# Define a condition to check if x is greater than 10
+if x > 10:
+    print("The condition is True")
+else:
+    print("The condition is False")
