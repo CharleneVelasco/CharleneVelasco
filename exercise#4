@@ -1,0 +1,15 @@
+# Create a list with string, int, and boolean data types
+my_list = ["apple", 1, True]
+
+# Access elements of the list
+print(my_list[0])  # Output: apple
+print(my_list[1])  # Output: 1
+print(my_list[2])  # Output: True
+
+# Modify an element of the list
+my_list[0] = "banana"
+print(my_list)  # Output: ["banana", 1, True]
+
+# Add an element to the list
+my_list.append("orange")
+print(my_list)  # Output: ["banana", 1, True, "orange"]
